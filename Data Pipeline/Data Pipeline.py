@@ -11,7 +11,7 @@ table_attribs = ["Country", "GDP_USD_millions"]
 db_name = 'World_Economies.db'
 table_name = 'Countries_by_GDP'
 csv_path = './Countries_by_GDP.csv'
-first_approach = False  # In The first Approach Data isn't properly cleaned
+first_approach = False  # In The first Approach is depending on read_html method in pandas which will be deprecated
 
 
 def extract(url, table_attribs):
